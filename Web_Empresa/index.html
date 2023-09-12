@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>PyLearn - Aprende a Programar</title>
+</head>
+<body>
+    <header>
+        <img class="img-logo" src="./imagenes/logo.png">
+        <h1>PyLearn</h1>
+        <h3>"Aprende a programar con diversión"</h3>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="#algoritmos">Algoritmos</a></li>
+                <li><a href="#datos">Datos</a></li>
+                <li><a href="estructuraDatos"></a>Estructuras de Datos</li>
+                <li><a href="#control">Estructuras de Control de Flujo</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="algoritmos">
+            <h2>Introducción a la Programación</h2>
+            <p>La programación es el arte de dar instrucciones a una computadora para que realice tareas específicas.
+               A este conjunto de instrucciones se lo denomina <strong>algoritmo</strong> 
+            </p>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/swpAfyZFt-8?si=_0tWGH5zIAjyrOIk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <p>Ejemplo de un <strong>algoritmo para hacer un té:</strong></p>
+            <pre>
+                <code>
+                    Calentar agua
+                    Colocar una bolsita de té en una taza
+                    Verter agua caliente en la taza
+                    Esperar unos minutos
+                    Retirar la bolsita de té
+                </code>
+            </pre>
+            <p>Ejemplo de la programación (usando el lenguaje de programación python) del algoritmo para hacer un té:</p>
+            <pre>
+                <code>
+                    # Algoritmo para hacer una taza de té en Python
+                    calentar_agua()
+                    colocar_taza()
+                    verter_agua_caliente()
+                    esperar_minutos(3)
+                    retirar_bolsita()
+                </code>
+            </pre>
+        </section>
+        
+        <section id="datos">
+            <h2>Tipos, Variables y Operadores</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/numQzIgpOo0?si=FB82eN9zWkbkDpmz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <p>Los <strong>tipos de datos</strong> más comunes son:</p>
+            <ul>
+                <li>Enteros (int)</li>
+                <li>Decimales (float)</li>
+                <li>Lógicos (bool)</li>
+                <li>Cadenas (str)</li>
+            </ul>
+            <p><strong>Las variables</strong> son contenedores que almacenan a esos datos. Por ejemplo en Python los datos se almacenan en variables de la siguiente manera:</p>
+            <pre class="code-block">
+                <code>
+                    # Declaración y definición de las variables
+                    edad = 25
+                    promedio = 92.5
+                    nombre = "Ana"
+                    
+                    # Mostrar variables
+                    print("Edad:", edad)
+                    print("Promedio:", promedio)
+                    print("Nombre:", nombre)
+                </code>
+            </pre>
+            <p>
+                <strong>Las operadores</strong> sirven para operar con esos datos. Existen diferentes tipos de operadores: 
+            </p>
+            <ul>
+                <li>Aritméticos: Para hacer cuentas con tus datos y devolver un número (Ejemplo: sumar, restar, multiplicar, dividir, etc...)</li>
+                <li>Relacionales: Para comparar tus datos y devolver VERDADERO O FALSO (Ejemplo: Si el numero1 > numero2 devuelve VERDADERO)</li>
+                <li>Lógicos: </li>
+            </ul>
+            Fijate los siguiente ejemplos de uso de operadores:
+            <pre class="code-block">
+                <code>
+                    # Uso de operadores aritméticos para obtener un resultado numérico
+                    print("Suma:", 3 + 4)  
+                    print("Resta:", 3 - 2)
+                    print("Multiplicación:", 8 * 9)
+                    print("División:", 16 / 2)
+                    print("Potenciación:", 2 ** 3)
+
+                    # Uso de operadores relacionales para obtener como resultado VERDADER o FALSO
+                    print("Mayor que:", 1 > 2)  
+                    print("Menor que:", 1 < 2)
+                    print("Igual a:", 2 == 2)
+                </code>
+            </pre>
+        </section>
+        
+        <section id="estructuraDatos">
+            <h2>Estructuras de datos</h2>
+            <p>
+                Sirven para organizar y operar a un conjunto de datos. Existen diferentes tipos:
+            </p>
+            <ul>
+                <li>Listas: </li>
+                <li>Tuplas: </li>
+                <li>Conjuntos: </li>
+                <li>Diccionarios: </li>
+            </ul>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/v25-m1LOUiU?si=2zUK0OIVt4yVJs_D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+        
+        <section id="control">
+            <h2>Estructuras de control de flujo</h2>
+            <p>
+                Sirven para ordenar y decidir cómo y de qué manera se ejecutarán las líneas de código. Existen diferentes estructuras:
+            </p>
+            <ul>
+                <li>Condicionales (if-else-elif): Las líneas de código dentro de este tipo de estructura, se ejecutan sólo sí se cumple una condición</li>
+                <li>Bucles (while-for): Las líneas de código dentro de este tipo de estructura, se repiten hasta que no se cumpla una condición</li>
+            </ul>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/w53HiWSZnzU?si=Mq5wCmhJY4zIDNmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <p>Ejemplo en Python del uso de la estructura de control de flujo <strong>Condicional</strong>:</p>
+            <pre class="code-block">
+                <code>
+                    # Ejemplo del uso del Condicional if-else-elif
+                    nota = 85
+                    if nota == 10:
+                        print("¡Aprobado con Excelente!")
+                    elif nota >= 60 and nota <=10:
+                        print("¡Aprobado!")
+                    else:
+                        print("¡Reprobado!")
+                </code>
+            </pre>
+            <p>Ejemplo en Python del uso de la estructura de control de flujo <strong>Bucle</strong>:</p>
+            <pre class="code-block">
+                <code>
+                    # Ejemplo del uso del Bucle for
+                    for i in range(5):
+                        print("Número:", i)
+                    
+                    # Ejemplo del uso del Bucle while
+                    contador = 0
+                    while contador < 3:
+                        print("Contador:", contador)
+                        contador += 1
+                </code>
+            </pre>
+        </section>
+                
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 PyLearn. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,101 @@
+/* Estilos generales */
+
+/* Estilos generales*/
+
+/* Estilos del encabezado de la página (header)*/
+
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Estilos del cuerpo de la página (body)*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos de la barra de navegación (nav) */
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilos de la imagen del logo en el nav */
+
+.img-logo {
+    display: block;
+    width: 15%;
+    margin: left;
+}
+
+main {
+    padding: 2rem;
+}
+
+h2 {
+    color: #3498db;
+}
+
+/* Estilos para el contenedor de video */
+.video-container {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 56.25%; /* Proporción 16:9 para videos */
+    margin-top: 20px;
+    margin-bottom: -300px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+}
+
+/* Estilos para los bloques de código */
+.code-block {
+    background-color: #f1f1f1;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    font-family: monospace;
+    overflow-x: auto;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Estilos específicos para móviles */
+@media (max-width: 600px) {
+    header {
+        padding: 0.5rem;
+    }
+    
+    nav ul li {
+        margin-right: 10px;
+    }
+    
+    main {
+        padding: 1rem;
+    }
+}
